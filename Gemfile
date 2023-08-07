@@ -39,6 +39,8 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'pry'
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -46,4 +48,18 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  gem 'simplecov'
+  gem 'shoulda-matchers'
+  gem 'orderly'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'webmock'
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'vcr'
+end
+
 gem 'figaro'
+gem 'faraday'
+gem "jsonapi-serializer"
