@@ -4,15 +4,13 @@ class AqiSearchFacade
   end
 
   def capital_aqi
-    aqi_search = ApiNinjaService.new(@params).aqi_by_country
-    aqi_search.map do |aqi_data|
+    aqi_search = ApiNinjaService.new(@params).aqi_by_capital
       aqi_hash = {
         id: nil,
         type: 'air quality',
-        city: @params[:capital],
-        attributes: aqi_data }
+        # city: @params[:capital],
+        attributes: aqi_search }
 
       AirQuality.new(aqi_hash)
-    end
   end
 end

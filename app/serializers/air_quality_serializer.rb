@@ -4,6 +4,6 @@ class AirQualitySerializer
   set_type :air_quality
   set_id :id
   attributes  :aqi,
-              :pm25,
-              :CO_conc
+              :pm25_concentration,
+              :co_concentration
 end
