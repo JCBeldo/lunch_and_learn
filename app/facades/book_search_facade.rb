@@ -5,8 +5,8 @@ class BookSearchFacade
       id: nil,
       type: 'books',
       city: "#{capital}",
-      attributes: book_hash
-    }
+      attributes: book_search }
+      
     CapitalBook.new(book_hash, capital)
   end
 end
