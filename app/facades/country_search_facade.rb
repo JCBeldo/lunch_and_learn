@@ -1,6 +1,7 @@
 class CountrySearchFacade
   def capital_city(country)
     capital_search = RestCountryService.new.get_country(country)
-    x = Capital.new(capital_search)
+    require 'pry'; binding.pry
+    Capital.new(capital_search)
   end
 end
