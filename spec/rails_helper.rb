@@ -79,8 +79,8 @@ end
 #   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
 #   config.hook_into :webmock
 #   config.default_cassette_options = { re_record_interval: 7.days }
-#   config.filter_sensitive_data('app_id') { ENV['app_key'] }
-#   config.filter_sensitive_data('app_id') { ENV['app_id'] }
+#   # config.filter_sensitive_data('app_id') { ENV['app_key'] }
+#   # config.filter_sensitive_data('app_id') { ENV['app_id'] }
 #   # config.filter_sensitive_data('GOOGLE_CLIENT_ID') { ENV['GOOGLE_CLIENT_ID'] }
 #   # config.filter_sensitive_data('GOOGLE_CLIENT_SECRET') { ENV['GOOGLE_CLIENT_SECRET'] }
 #   config.default_cassette_options = { :allow_playback_repeats => true }

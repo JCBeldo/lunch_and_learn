@@ -1,0 +1,2836 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openlibrary.org/search.json?q=libson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Date:
+      - Tue, 08 Aug 2023 18:00:38 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Method:
+      - GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      X-Ol-Stats:
+      - '"SR 1 0.207 TT 0 0.216"'
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "numFound": 36,
+            "start": 0,
+            "numFoundExact": true,
+            "docs": [
+                {
+                    "key": "/works/OL26354259W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL35588943M",
+                        "/works/OL26354259W",
+                        "/authors/OL9935122A"
+                    ],
+                    "title": "Lowell Libson and Jonny Yarker Ltd",
+                    "title_suggest": "Lowell Libson and Jonny Yarker Ltd",
+                    "title_sort": "Lowell Libson and Jonny Yarker Ltd",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL35588943M"
+                    ],
+                    "publish_date": [
+                        "2018"
+                    ],
+                    "publish_year": [
+                        2018
+                    ],
+                    "first_publish_year": 2018,
+                    "isbn": [
+                        "9781999978327",
+                        "1999978323"
+                    ],
+                    "last_modified_i": 1635932156,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Libson & Jonny Yarker Ltd, Lowell"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL9935122A"
+                    ],
+                    "author_name": [
+                        "Lowell Libson & Jonny Yarker Ltd. Staff"
+                    ],
+                    "publisher_facet": [
+                        "Libson & Jonny Yarker Ltd, Lowell"
+                    ],
+                    "_version_": 1759773958554517504,
+                    "author_facet": [
+                        "OL9935122A Lowell Libson & Jonny Yarker Ltd. Staff"
+                    ]
+                },
+                {
+                    "key": "/works/OL32730248W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL44549198M",
+                        "/works/OL32730248W",
+                        "/subjects/catalogs",
+                        "/subjects/british_art",
+                        "/subjects/lowell_libson_ltd",
+                        "/subjects/time:18th_century",
+                        "/subjects/time:19th_century",
+                        "/authors/OL11885268A"
+                    ],
+                    "title": "Lowell Libson Ltd 2014",
+                    "title_suggest": "Lowell Libson Ltd 2014",
+                    "title_sort": "Lowell Libson Ltd 2014",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL44549198M"
+                    ],
+                    "publish_date": [
+                        "2014"
+                    ],
+                    "publish_year": [
+                        2014
+                    ],
+                    "first_publish_year": 2014,
+                    "publish_place": [
+                        "London"
+                    ],
+                    "lcc": [
+                        "N--6766.00000000.L693 2014"
+                    ],
+                    "isbn": [
+                        "0956393071",
+                        "9780956393074"
+                    ],
+                    "last_modified_i": 1671515410,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lowell Libson Limited"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL11885268A"
+                    ],
+                    "author_name": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "subject": [
+                        "Catalogs",
+                        "British Art",
+                        "Lowell Libson Ltd"
+                    ],
+                    "time": [
+                        "18th century",
+                        "19th century"
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson Limited"
+                    ],
+                    "time_facet": [
+                        "18th century",
+                        "19th century"
+                    ],
+                    "subject_facet": [
+                        "British Art",
+                        "Catalogs",
+                        "Lowell Libson Ltd"
+                    ],
+                    "_version_": 1759786612494958592,
+                    "lcc_sort": "N--6766.00000000.L693 2014",
+                    "author_facet": [
+                        "OL11885268A Lowell Libson Ltd"
+                    ],
+                    "subject_key": [
+                        "british_art",
+                        "catalogs",
+                        "lowell_libson_ltd"
+                    ],
+                    "time_key": [
+                        "18th_century",
+                        "19th_century"
+                    ]
+                },
+                {
+                    "key": "/works/OL19112688M",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL19112688M",
+                        "/works/OL19112688M",
+                        "/subjects/drawing_british_--_exhibitions."
+                    ],
+                    "title": "Watercolours and drawings",
+                    "title_suggest": "Watercolours and drawings",
+                    "title_sort": "Watercolours and drawings",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL19112688M"
+                    ],
+                    "publish_date": [
+                        "2003"
+                    ],
+                    "publish_year": [
+                        2003
+                    ],
+                    "first_publish_year": 2003,
+                    "number_of_pages_median": 96,
+                    "publish_place": [
+                        "London, Eng"
+                    ],
+                    "contributor": [
+                        "Lowell Libson Ltd."
+                    ],
+                    "last_modified_i": 1678281656,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lowell Libson Ltd."
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "subject": [
+                        "Drawing, British -- Exhibitions."
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson Ltd."
+                    ],
+                    "subject_facet": [
+                        "Drawing, British -- Exhibitions."
+                    ],
+                    "_version_": 1759805872442179586,
+                    "subject_key": [
+                        "drawing_british_--_exhibitions."
+                    ]
+                },
+                {
+                    "key": "/works/OL9625158W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL11405348M",
+                        "/books/OL46079743M",
+                        "/works/OL9625158W",
+                        "/authors/OL3622219A"
+                    ],
+                    "title": "A Guide to Bathroom Wallcovering",
+                    "title_suggest": "A Guide to Bathroom Wallcovering",
+                    "title_sort": "A Guide to Bathroom Wallcovering",
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL11405348M",
+                        "OL46079743M"
+                    ],
+                    "publish_date": [
+                        "October 1984",
+                        "1984"
+                    ],
+                    "publish_year": [
+                        1984
+                    ],
+                    "first_publish_year": 1984,
+                    "isbn": [
+                        "9780912944951",
+                        "9780912944968",
+                        "0912944951",
+                        "091294496X"
+                    ],
+                    "last_modified_i": 1673937157,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Berkshire Traveller Pr",
+                        "Norton & Company, Incorporated, W. W."
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL3622219A"
+                    ],
+                    "author_name": [
+                        "Lionel Libson"
+                    ],
+                    "publisher_facet": [
+                        "Berkshire Traveller Pr",
+                        "Norton & Company, Incorporated, W. W."
+                    ],
+                    "_version_": 1759803877223301120,
+                    "author_facet": [
+                        "OL3622219A Lionel Libson"
+                    ]
+                },
+                {
+                    "key": "/works/OL9625160W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL11405347M",
+                        "/works/OL9625160W",
+                        "/authors/OL3622219A"
+                    ],
+                    "title": "A Guide to Kitchen Wallcoverings",
+                    "title_suggest": "A Guide to Kitchen Wallcoverings",
+                    "title_sort": "A Guide to Kitchen Wallcoverings",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL11405347M"
+                    ],
+                    "publish_date": [
+                        "October 1984"
+                    ],
+                    "publish_year": [
+                        1984
+                    ],
+                    "first_publish_year": 1984,
+                    "isbn": [
+                        "0912944943",
+                        "9780912944944"
+                    ],
+                    "last_modified_i": 1260839087,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Berkshire Traveller Pr"
+                    ],
+                    "author_key": [
+                        "OL3622219A"
+                    ],
+                    "author_name": [
+                        "Lionel Libson"
+                    ],
+                    "publisher_facet": [
+                        "Berkshire Traveller Pr"
+                    ],
+                    "_version_": 1759803877129977856,
+                    "author_facet": [
+                        "OL3622219A Lionel Libson"
+                    ]
+                },
+                {
+                    "key": "/works/OL13210686W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL20740878M",
+                        "/works/OL13210686W",
+                        "/authors/OL6119487A"
+                    ],
+                    "title": "Music and poetry of Linton Kwesi Johnson",
+                    "title_suggest": "Music and poetry of Linton Kwesi Johnson",
+                    "title_sort": "Music and poetry of Linton Kwesi Johnson",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL20740878M"
+                    ],
+                    "contributor": [
+                        "Manchester Polytechnic. Department of English and History."
+                    ],
+                    "last_modified_i": 1260860726,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL6119487A"
+                    ],
+                    "author_name": [
+                        "Gaddi Libson"
+                    ],
+                    "_version_": 1759747859028115456,
+                    "author_facet": [
+                        "OL6119487A Gaddi Libson"
+                    ]
+                },
+                {
+                    "key": "/works/OL8275775W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL7670922M",
+                        "/works/OL8275775W",
+                        "/subjects/customary_law",
+                        "/subjects/islamic_law",
+                        "/subjects/jewish_law",
+                        "/subjects/law_medieval",
+                        "/subjects/customary_law_(islamic_law)",
+                        "/subjects/history",
+                        "/subjects/customary_law_(jewish_law)",
+                        "/subjects/medieval_law",
+                        "/authors/OL2753989A"
+                    ],
+                    "title": "Jewish and Islamic Law",
+                    "title_suggest": "Jewish and Islamic Law",
+                    "title_sort": "Jewish and Islamic Law",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL7670922M"
+                    ],
+                    "publish_date": [
+                        "April 30, 2003"
+                    ],
+                    "publish_year": [
+                        2003
+                    ],
+                    "first_publish_year": 2003,
+                    "number_of_pages_median": 380,
+                    "lccn": [
+                        "2002116978"
+                    ],
+                    "oclc": [
+                        "52164821"
+                    ],
+                    "lcc": [
+                        "KMC0117.00000000",
+                        "KB-0190.00000000.L53 2003",
+                        "KB-0190.00000000.A35 L53 2003"
+                    ],
+                    "isbn": [
+                        "0674011066",
+                        "9780674011069"
+                    ],
+                    "last_modified_i": 1673056481,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "readinglog_count": 2,
+                    "want_to_read_count": 2,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
+                    "cover_edition_key": "OL7670922M",
+                    "cover_i": 1335870,
+                    "publisher": [
+                        "Islamic Legal Studies Program, Harvard Law School"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2753989A"
+                    ],
+                    "author_name": [
+                        "Gideon Libson"
+                    ],
+                    "subject": [
+                        "Customary law",
+                        "Islamic law",
+                        "Jewish law",
+                        "Law, medieval",
+                        "Customary law (Islamic law)",
+                        "History",
+                        "Customary law (Jewish law)",
+                        "Medieval Law"
+                    ],
+                    "id_librarything": [
+                        "5268461"
+                    ],
+                    "publisher_facet": [
+                        "Islamic Legal Studies Program, Harvard Law School"
+                    ],
+                    "subject_facet": [
+                        "Customary law",
+                        "Customary law (Islamic law)",
+                        "Customary law (Jewish law)",
+                        "History",
+                        "Islamic law",
+                        "Jewish law",
+                        "Law, medieval",
+                        "Medieval Law"
+                    ],
+                    "_version_": 1759801154952232960,
+                    "lcc_sort": "KB-0190.00000000.A35 L53 2003",
+                    "author_facet": [
+                        "OL2753989A Gideon Libson"
+                    ],
+                    "subject_key": [
+                        "customary_law",
+                        "customary_law_(islamic_law)",
+                        "customary_law_(jewish_law)",
+                        "history",
+                        "islamic_law",
+                        "jewish_law",
+                        "law_medieval",
+                        "medieval_law"
+                    ]
+                },
+                {
+                    "key": "/works/OL34035853W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL46082027M",
+                        "/works/OL34035853W",
+                        "/authors/OL3622219A"
+                    ],
+                    "title": "Guide to Kitchen Wallcovering",
+                    "title_suggest": "Guide to Kitchen Wallcovering",
+                    "title_sort": "Guide to Kitchen Wallcovering",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL46082027M"
+                    ],
+                    "publish_date": [
+                        "1984"
+                    ],
+                    "publish_year": [
+                        1984
+                    ],
+                    "first_publish_year": 1984,
+                    "isbn": [
+                        "9780912944937",
+                        "0912944935"
+                    ],
+                    "last_modified_i": 1673938830,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Norton & Company, Incorporated, W. W."
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL3622219A"
+                    ],
+                    "author_name": [
+                        "Lionel Libson"
+                    ],
+                    "publisher_facet": [
+                        "Norton & Company, Incorporated, W. W."
+                    ],
+                    "_version_": 1759789093743493121,
+                    "author_facet": [
+                        "OL3622219A Lionel Libson"
+                    ]
+                },
+                {
+                    "key": "/works/OL34035422W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL46081300M",
+                        "/works/OL34035422W",
+                        "/authors/OL3622219A"
+                    ],
+                    "title": "Guide to Country Wallcovering",
+                    "title_suggest": "Guide to Country Wallcovering",
+                    "title_sort": "Guide to Country Wallcovering",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL46081300M"
+                    ],
+                    "publish_date": [
+                        "1984"
+                    ],
+                    "publish_year": [
+                        1984
+                    ],
+                    "first_publish_year": 1984,
+                    "isbn": [
+                        "9780912944975",
+                        "0912944978"
+                    ],
+                    "last_modified_i": 1673938253,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Norton & Company, Incorporated, W. W."
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL3622219A"
+                    ],
+                    "author_name": [
+                        "Lionel Libson"
+                    ],
+                    "publisher_facet": [
+                        "Norton & Company, Incorporated, W. W."
+                    ],
+                    "_version_": 1759789094455476224,
+                    "author_facet": [
+                        "OL3622219A Lionel Libson"
+                    ]
+                },
+                {
+                    "key": "/works/OL9625159W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL11405349M",
+                        "/works/OL9625159W",
+                        "/authors/OL3622219A"
+                    ],
+                    "title": "A Guide to Country Wallcoverings",
+                    "title_sort": "A Guide to Country Wallcoverings",
+                    "title_suggest": "A Guide to Country Wallcoverings",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL11405349M"
+                    ],
+                    "publish_date": [
+                        "October 1984"
+                    ],
+                    "publish_year": [
+                        1984
+                    ],
+                    "first_publish_year": 1984,
+                    "isbn": [
+                        "9780912944982",
+                        "0912944986"
+                    ],
+                    "last_modified_i": 1690333533,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "readinglog_count": 0,
+                    "want_to_read_count": 0,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
+                    "publisher": [
+                        "Berkshire Traveller Pr"
+                    ],
+                    "author_key": [
+                        "OL3622219A"
+                    ],
+                    "author_name": [
+                        "Lionel Libson"
+                    ],
+                    "publisher_facet": [
+                        "Berkshire Traveller Pr"
+                    ],
+                    "_version_": 1772443176228880384,
+                    "author_facet": [
+                        "OL3622219A Lionel Libson"
+                    ]
+                },
+                {
+                    "key": "/works/OL25786166W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL40445251M",
+                        "/books/OL34747645M",
+                        "/works/OL25786166W",
+                        "/subjects/talmud",
+                        "/authors/OL8614500A"
+                    ],
+                    "title": "Law and Self-Knowledge in the Talmud",
+                    "title_suggest": "Law and Self-Knowledge in the Talmud",
+                    "title_sort": "Law and Self-Knowledge in the Talmud",
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL40445251M",
+                        "OL34747645M"
+                    ],
+                    "publish_date": [
+                        "2018"
+                    ],
+                    "publish_year": [
+                        2018
+                    ],
+                    "first_publish_year": 2018,
+                    "isbn": [
+                        "1108573258",
+                        "9781108573252",
+                        "9781108655972",
+                        "1108655971"
+                    ],
+                    "last_modified_i": 1668804208,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Cambridge University Press"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL8614500A"
+                    ],
+                    "author_name": [
+                        "Ayelet Hoffmann Libson"
+                    ],
+                    "subject": [
+                        "Talmud"
+                    ],
+                    "publisher_facet": [
+                        "Cambridge University Press"
+                    ],
+                    "subject_facet": [
+                        "Talmud"
+                    ],
+                    "_version_": 1759772862641602560,
+                    "author_facet": [
+                        "OL8614500A Ayelet Hoffmann Libson"
+                    ],
+                    "subject_key": [
+                        "talmud"
+                    ]
+                },
+                {
+                    "key": "/works/OL22542004W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL30598231M",
+                        "/books/OL34554991M",
+                        "/works/OL22542004W",
+                        "/subjects/talmud",
+                        "/subjects/jewish_law",
+                        "/subjects/self-knowledge_theory_of",
+                        "/authors/OL8614500A"
+                    ],
+                    "title": "Law and Self-Knowledge in the Babylonian Talmud",
+                    "title_suggest": "Law and Self-Knowledge in the Babylonian Talmud",
+                    "title_sort": "Law and Self-Knowledge in the Babylonian Talmud",
+                    "edition_count": 2,
+                    "edition_key": [
+                        "OL30598231M",
+                        "OL34554991M"
+                    ],
+                    "publish_date": [
+                        "2019",
+                        "2018"
+                    ],
+                    "publish_year": [
+                        2019,
+                        2018
+                    ],
+                    "first_publish_year": 2018,
+                    "number_of_pages_median": 226,
+                    "lcc": [
+                        "BM-0520.50000000.L45 2018"
+                    ],
+                    "isbn": [
+                        "1108427499",
+                        "9781108446235",
+                        "9781108427494",
+                        "110844623X"
+                    ],
+                    "last_modified_i": 1633473328,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Cambridge University Press"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL8614500A"
+                    ],
+                    "author_name": [
+                        "Ayelet Hoffmann Libson"
+                    ],
+                    "subject": [
+                        "Talmud",
+                        "Jewish law",
+                        "Self-knowledge, theory of"
+                    ],
+                    "publisher_facet": [
+                        "Cambridge University Press"
+                    ],
+                    "subject_facet": [
+                        "Jewish law",
+                        "Self-knowledge, theory of",
+                        "Talmud"
+                    ],
+                    "_version_": 1759766447652864001,
+                    "lcc_sort": "BM-0520.50000000.L45 2018",
+                    "author_facet": [
+                        "OL8614500A Ayelet Hoffmann Libson"
+                    ],
+                    "subject_key": [
+                        "jewish_law",
+                        "self-knowledge_theory_of",
+                        "talmud"
+                    ]
+                },
+                {
+                    "key": "/works/OL10584090W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL13810564M",
+                        "/works/OL10584090W",
+                        "/subjects/bol\u015bho\u012d_teatr",
+                        "/authors/OL4399425A"
+                    ],
+                    "title": "Bol'shoi  teatr SSSR",
+                    "title_suggest": "Bol'shoi  teatr SSSR",
+                    "title_sort": "Bol'shoi  teatr SSSR",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL13810564M"
+                    ],
+                    "publish_date": [
+                        "1982"
+                    ],
+                    "publish_year": [
+                        1982
+                    ],
+                    "first_publish_year": 1982,
+                    "publish_place": [
+                        "Moskva"
+                    ],
+                    "contributor": [
+                        "Kuznetsova, A. I."
+                    ],
+                    "last_modified_i": 1291621409,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Stroi izdat"
+                    ],
+                    "language": [
+                        "rus"
+                    ],
+                    "author_key": [
+                        "OL4399425A"
+                    ],
+                    "author_name": [
+                        "V. Ya Libson"
+                    ],
+                    "subject": [
+                        "Bol\u015bho\u012d teatr"
+                    ],
+                    "publisher_facet": [
+                        "Stroi izdat"
+                    ],
+                    "subject_facet": [
+                        "Bol\u015bho\u012d teatr"
+                    ],
+                    "_version_": 1759741952265289728,
+                    "author_facet": [
+                        "OL4399425A V. Ya Libson"
+                    ],
+                    "subject_key": [
+                        "bol\u015bho\u012d_teatr"
+                    ]
+                },
+                {
+                    "key": "/works/OL13240015W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL20850390M",
+                        "/works/OL13240015W",
+                        "/subjects/guidebooks",
+                        "/subjects/church_architecture",
+                        "/subjects/architecture",
+                        "/subjects/place:russia_(federation)",
+                        "/subjects/place:moscow_(oblast)",
+                        "/authors/OL6145594A"
+                    ],
+                    "title": "Po beregam Istry i ee pritokov",
+                    "title_suggest": "Po beregam Istry i ee pritokov",
+                    "title_sort": "Po beregam Istry i ee pritokov",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL20850390M"
+                    ],
+                    "publish_date": [
+                        "1974"
+                    ],
+                    "publish_year": [
+                        1974
+                    ],
+                    "first_publish_year": 1974,
+                    "number_of_pages_median": 143,
+                    "publish_place": [
+                        "Moskva"
+                    ],
+                    "last_modified_i": 1264551245,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Iskusstvo"
+                    ],
+                    "language": [
+                        "rus"
+                    ],
+                    "author_key": [
+                        "OL6145594A"
+                    ],
+                    "author_name": [
+                        "Vladimir I\ufe20A\ufe21kovlevich Libson"
+                    ],
+                    "place": [
+                        "Russia (Federation)",
+                        "Moscow (Oblast)"
+                    ],
+                    "subject": [
+                        "Guidebooks",
+                        "Church architecture",
+                        "Architecture"
+                    ],
+                    "publisher_facet": [
+                        "Iskusstvo"
+                    ],
+                    "place_key": [
+                        "moscow_(oblast)",
+                        "russia_(federation)"
+                    ],
+                    "subject_facet": [
+                        "Architecture",
+                        "Church architecture",
+                        "Guidebooks"
+                    ],
+                    "_version_": 1759748049251336193,
+                    "place_facet": [
+                        "Moscow (Oblast)",
+                        "Russia (Federation)"
+                    ],
+                    "author_facet": [
+                        "OL6145594A Vladimir I\ufe20A\ufe21kovlevich Libson"
+                    ],
+                    "subject_key": [
+                        "architecture",
+                        "church_architecture",
+                        "guidebooks"
+                    ]
+                },
+                {
+                    "key": "/works/OL10749933W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL14066710M",
+                        "/works/OL10749933W",
+                        "/subjects/bol\u02b9sho\u012d_teatr_sssr",
+                        "/subjects/conservation_and_restoration",
+                        "/subjects/history",
+                        "/subjects/theaters",
+                        "/subjects/place:moscow_(russia)",
+                        "/authors/OL4493167A"
+                    ],
+                    "title": "Bol\u02b9sho\u012d teatr SSSR",
+                    "title_suggest": "Bol\u02b9sho\u012d teatr SSSR",
+                    "title_sort": "Bol\u02b9sho\u012d teatr SSSR",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL14066710M"
+                    ],
+                    "publish_date": [
+                        "1982"
+                    ],
+                    "publish_year": [
+                        1982
+                    ],
+                    "first_publish_year": 1982,
+                    "number_of_pages_median": 147,
+                    "publish_place": [
+                        "Moskva"
+                    ],
+                    "contributor": [
+                        "Kuznet\ufe20s\ufe21ova, A. I."
+                    ],
+                    "lcc": [
+                        "NA-6840.00000000.S62 M6735 1982"
+                    ],
+                    "ddc": [
+                        "725.8220947312"
+                    ],
+                    "last_modified_i": 1291621689,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Stro\u012dizdat"
+                    ],
+                    "language": [
+                        "rus"
+                    ],
+                    "author_key": [
+                        "OL4493167A"
+                    ],
+                    "author_name": [
+                        "V. I\ufe20A\ufe21 Libson"
+                    ],
+                    "place": [
+                        "Moscow (Russia)"
+                    ],
+                    "subject": [
+                        "Bol\u02b9sho\u012d teatr SSSR",
+                        "Conservation and restoration",
+                        "History",
+                        "Theaters"
+                    ],
+                    "publisher_facet": [
+                        "Stro\u012dizdat"
+                    ],
+                    "place_key": [
+                        "moscow_(russia)"
+                    ],
+                    "subject_facet": [
+                        "Bol\u02b9sho\u012d teatr SSSR",
+                        "Conservation and restoration",
+                        "History",
+                        "Theaters"
+                    ],
+                    "_version_": 1759742305826242560,
+                    "place_facet": [
+                        "Moscow (Russia)"
+                    ],
+                    "lcc_sort": "NA-6840.00000000.S62 M6735 1982",
+                    "author_facet": [
+                        "OL4493167A V. I\ufe20A\ufe21 Libson"
+                    ],
+                    "subject_key": [
+                        "bol\u02b9sho\u012d_teatr_sssr",
+                        "conservation_and_restoration",
+                        "history",
+                        "theaters"
+                    ],
+                    "ddc_sort": "725.8220947312"
+                },
+                {
+                    "key": "/works/OL5316776W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL3202005M",
+                        "/works/OL5316776W",
+                        "/subjects/bol\u02b9sho\u012d_teatr_sssr",
+                        "/subjects/buildings_structures",
+                        "/subjects/history",
+                        "/subjects/place:moscow_(russia)",
+                        "/authors/OL1213713A"
+                    ],
+                    "title": "Bol\u02b9sho\u012d teatr SSSR",
+                    "title_suggest": "Bol\u02b9sho\u012d teatr SSSR",
+                    "title_sort": "Bol\u02b9sho\u012d teatr SSSR",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL3202005M"
+                    ],
+                    "publish_date": [
+                        "1982"
+                    ],
+                    "publish_year": [
+                        1982
+                    ],
+                    "first_publish_year": 1982,
+                    "number_of_pages_median": 147,
+                    "lccn": [
+                        "83106446"
+                    ],
+                    "publish_place": [
+                        "Moskva"
+                    ],
+                    "contributor": [
+                        "Kuznet\u0361sova, A. I."
+                    ],
+                    "lcc": [
+                        "NA-6840.00000000.S62 M6735 1982"
+                    ],
+                    "ddc": [
+                        "725.8220947312"
+                    ],
+                    "last_modified_i": 1603345496,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Stro\u012dizdat"
+                    ],
+                    "language": [
+                        "rus"
+                    ],
+                    "author_key": [
+                        "OL1213713A"
+                    ],
+                    "author_name": [
+                        "V. I\u0361A Libson"
+                    ],
+                    "place": [
+                        "Moscow (Russia)"
+                    ],
+                    "subject": [
+                        "Bol\u02b9sho\u012d teatr SSSR",
+                        "Buildings, structures",
+                        "History"
+                    ],
+                    "publisher_facet": [
+                        "Stro\u012dizdat"
+                    ],
+                    "place_key": [
+                        "moscow_(russia)"
+                    ],
+                    "subject_facet": [
+                        "Bol\u02b9sho\u012d teatr SSSR",
+                        "Buildings, structures",
+                        "History"
+                    ],
+                    "_version_": 1759794580789657600,
+                    "place_facet": [
+                        "Moscow (Russia)"
+                    ],
+                    "lcc_sort": "NA-6840.00000000.S62 M6735 1982",
+                    "author_facet": [
+                        "OL1213713A V. I\u0361A Libson"
+                    ],
+                    "subject_key": [
+                        "bol\u02b9sho\u012d_teatr_sssr",
+                        "buildings_structures",
+                        "history"
+                    ],
+                    "ddc_sort": "725.8220947312"
+                },
+                {
+                    "key": "/works/OL5316777W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL2789815M",
+                        "/works/OL5316777W",
+                        "/subjects/architecture",
+                        "/subjects/buildings",
+                        "/subjects/buildings_structures",
+                        "/subjects/conservation_and_restoration",
+                        "/subjects/place:moscow",
+                        "/subjects/place:moscow_(russia)",
+                        "/subjects/place:russia_(federation)",
+                        "/authors/OL1213713A"
+                    ],
+                    "title": "Vozrozhdennye sokrovishcha Moskvy",
+                    "title_suggest": "Vozrozhdennye sokrovishcha Moskvy",
+                    "title_sort": "Vozrozhdennye sokrovishcha Moskvy",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL2789815M"
+                    ],
+                    "publish_date": [
+                        "1983"
+                    ],
+                    "publish_year": [
+                        1983
+                    ],
+                    "first_publish_year": 1983,
+                    "number_of_pages_median": 255,
+                    "lccn": [
+                        "83217238"
+                    ],
+                    "publish_place": [
+                        "Moskva"
+                    ],
+                    "lcc": [
+                        "NA-0109.00000000.S65 L5 1983"
+                    ],
+                    "ddc": [
+                        "720.947312"
+                    ],
+                    "last_modified_i": 1604039882,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Moskovski\u012d rabochi\u012d"
+                    ],
+                    "language": [
+                        "rus"
+                    ],
+                    "author_key": [
+                        "OL1213713A"
+                    ],
+                    "author_name": [
+                        "V. I\u0361A Libson"
+                    ],
+                    "place": [
+                        "Moscow",
+                        "Moscow (Russia)",
+                        "Russia (Federation)"
+                    ],
+                    "subject": [
+                        "Architecture",
+                        "Buildings",
+                        "Buildings, structures",
+                        "Conservation and restoration"
+                    ],
+                    "publisher_facet": [
+                        "Moskovski\u012d rabochi\u012d"
+                    ],
+                    "place_key": [
+                        "moscow",
+                        "moscow_(russia)",
+                        "russia_(federation)"
+                    ],
+                    "subject_facet": [
+                        "Architecture",
+                        "Buildings",
+                        "Buildings, structures",
+                        "Conservation and restoration"
+                    ],
+                    "_version_": 1759794580305215488,
+                    "place_facet": [
+                        "Moscow",
+                        "Moscow (Russia)",
+                        "Russia (Federation)"
+                    ],
+                    "lcc_sort": "NA-0109.00000000.S65 L5 1983",
+                    "author_facet": [
+                        "OL1213713A V. I\u0361A Libson"
+                    ],
+                    "subject_key": [
+                        "architecture",
+                        "buildings",
+                        "buildings_structures",
+                        "conservation_and_restoration"
+                    ],
+                    "ddc_sort": "720.947312"
+                },
+                {
+                    "key": "/works/OL31976267W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL43693008M",
+                        "/works/OL31976267W",
+                        "/authors/OL11432577A"
+                    ],
+                    "title": "British Art",
+                    "title_suggest": "British Art",
+                    "title_sort": "British Art",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL43693008M"
+                    ],
+                    "publish_date": [
+                        "2015-01-01"
+                    ],
+                    "publish_year": [
+                        2015
+                    ],
+                    "first_publish_year": 2015,
+                    "isbn": [
+                        "9780992909604",
+                        "0992909600"
+                    ],
+                    "last_modified_i": 1670667589,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "author_key": [
+                        "OL11432577A"
+                    ],
+                    "author_name": [
+                        "Lowell, Libson, Jonathan, Yarker"
+                    ],
+                    "id_amazon": [
+                        ""
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "_version_": 1759784986012024832,
+                    "author_facet": [
+                        "OL11432577A Lowell, Libson, Jonathan, Yarker"
+                    ]
+                },
+                {
+                    "key": "/works/OL31347916W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL42996383M",
+                        "/works/OL31347916W",
+                        "/subjects/exhibitions",
+                        "/authors/OL11432577A"
+                    ],
+                    "title": "Gainsborough and the Landscape of Refinement",
+                    "title_suggest": "Gainsborough and the Landscape of Refinement",
+                    "title_sort": "Gainsborough and the Landscape of Refinement",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL42996383M"
+                    ],
+                    "publish_date": [
+                        "2014-01-01"
+                    ],
+                    "publish_year": [
+                        2014
+                    ],
+                    "first_publish_year": 2014,
+                    "oclc": [
+                        "869219378"
+                    ],
+                    "lcc": [
+                        "ND-0497.00000000.G2 A4 2014"
+                    ],
+                    "isbn": [
+                        "095639308X",
+                        "9780956393081"
+                    ],
+                    "last_modified_i": 1671515195,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "author_key": [
+                        "OL11432577A"
+                    ],
+                    "author_name": [
+                        "Lowell, Libson, Jonathan, Yarker"
+                    ],
+                    "subject": [
+                        "Exhibitions"
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "subject_facet": [
+                        "Exhibitions"
+                    ],
+                    "_version_": 1759783761251139584,
+                    "lcc_sort": "ND-0497.00000000.G2 A4 2014",
+                    "author_facet": [
+                        "OL11432577A Lowell, Libson, Jonathan, Yarker"
+                    ],
+                    "subject_key": [
+                        "exhibitions"
+                    ]
+                },
+                {
+                    "key": "/works/OL23649518W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL732388M",
+                        "/works/OL23649518W",
+                        "/authors/OL5757701A"
+                    ],
+                    "title": "Between past and future",
+                    "title_suggest": "Between past and future",
+                    "title_sort": "Between past and future",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL732388M"
+                    ],
+                    "publish_date": [
+                        "1996"
+                    ],
+                    "publish_year": [
+                        1996
+                    ],
+                    "first_publish_year": 1996,
+                    "number_of_pages_median": 20,
+                    "lccn": [
+                        "97122098"
+                    ],
+                    "publish_place": [
+                        "Washington, DC"
+                    ],
+                    "contributor": [
+                        "B'nai B'rith Klutznick National Jewish Museum."
+                    ],
+                    "last_modified_i": 1606380745,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "The Museum"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL5757701A"
+                    ],
+                    "author_name": [
+                        "B'nai B'rith Klutznick National Jewish Museum"
+                    ],
+                    "publisher_facet": [
+                        "The Museum"
+                    ],
+                    "_version_": 1759768497882136576,
+                    "author_facet": [
+                        "OL5757701A B'nai B'rith Klutznick National Jewish Museum"
+                    ]
+                },
+                {
+                    "key": "/works/OL19188143W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL2621935M",
+                        "/works/OL19188143W",
+                        "/subjects/juvenile_literature",
+                        "/subjects/bicycle_motocross",
+                        "/subjects/bicycles_and_bicycling",
+                        "/subjects/bicycles_juvenile_literature",
+                        "/authors/OL44815A",
+                        "/authors/OL6994756A",
+                        "/authors/OL772492A",
+                        "/authors/OL3622219A"
+                    ],
+                    "title": "BMX!",
+                    "title_suggest": "BMX!",
+                    "title_sort": "BMX!",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL2621935M"
+                    ],
+                    "publish_date": [
+                        "1984"
+                    ],
+                    "publish_year": [
+                        1984
+                    ],
+                    "first_publish_year": 1984,
+                    "number_of_pages_median": 32,
+                    "lccn": [
+                        "85189096"
+                    ],
+                    "publish_place": [
+                        "New York"
+                    ],
+                    "oclc": [
+                        "12908480"
+                    ],
+                    "contributor": [
+                        "Hart, Cynthia.",
+                        "Libson, Lionel.",
+                        "Blackman, Jeffrey E., ill.",
+                        "Biddle, Geoffrey, ill."
+                    ],
+                    "lcc": [
+                        "GV-1049.30000000.B59 1984"
+                    ],
+                    "ddc": [
+                        "796.62"
+                    ],
+                    "isbn": [
+                        "9780590333290",
+                        "0590333291"
+                    ],
+                    "last_modified_i": 1671296798,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Scholastic"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL44815A",
+                        "OL6994756A",
+                        "OL772492A",
+                        "OL3622219A"
+                    ],
+                    "author_name": [
+                        "Cynthia Hart",
+                        "Jeffrey E. Blackman",
+                        "Geoffrey Biddle",
+                        "Lionel Libson"
+                    ],
+                    "subject": [
+                        "Juvenile literature",
+                        "Bicycle motocross",
+                        "Bicycles and bicycling",
+                        "Bicycles, juvenile literature"
+                    ],
+                    "publisher_facet": [
+                        "Scholastic"
+                    ],
+                    "subject_facet": [
+                        "Bicycle motocross",
+                        "Bicycles and bicycling",
+                        "Bicycles, juvenile literature",
+                        "Juvenile literature"
+                    ],
+                    "_version_": 1759759428583686144,
+                    "lcc_sort": "GV-1049.30000000.B59 1984",
+                    "author_facet": [
+                        "OL3622219A Lionel Libson",
+                        "OL44815A Cynthia Hart",
+                        "OL6994756A Jeffrey E. Blackman",
+                        "OL772492A Geoffrey Biddle"
+                    ],
+                    "subject_key": [
+                        "bicycle_motocross",
+                        "bicycles_and_bicycling",
+                        "bicycles_juvenile_literature",
+                        "juvenile_literature"
+                    ],
+                    "ddc_sort": "796.62"
+                },
+                {
+                    "key": "/works/OL2300238W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL22319671M",
+                        "/books/OL20574650M",
+                        "/books/OL13850683M",
+                        "/books/OL4440684M",
+                        "/books/OL13815859M",
+                        "/books/OL498618M",
+                        "/books/OL15439833M",
+                        "/books/OL19134137M",
+                        "/books/OL7639015M",
+                        "/works/OL2300238W",
+                        "/subjects/art_british",
+                        "/subjects/british_art",
+                        "/subjects/catalogs",
+                        "/subjects/english_landscape_painting",
+                        "/subjects/english_portrait_painting",
+                        "/subjects/exhibitions",
+                        "/subjects/landscape_painting_english",
+                        "/subjects/portrait_painting_english",
+                        "/subjects/gainsborough_thomas_1727-1788",
+                        "/subjects/person:thomas_gainsborough_(1727-1788)",
+                        "/subjects/time:18th_century",
+                        "/authors/OL303393A"
+                    ],
+                    "title": "Thomas Gainsborough",
+                    "title_suggest": "Thomas Gainsborough",
+                    "title_sort": "Thomas Gainsborough",
+                    "edition_count": 9,
+                    "edition_key": [
+                        "OL22319671M",
+                        "OL20574650M",
+                        "OL13850683M",
+                        "OL4440684M",
+                        "OL13815859M",
+                        "OL498618M",
+                        "OL15439833M",
+                        "OL19134137M",
+                        "OL7639015M"
+                    ],
+                    "publish_date": [
+                        "February 11, 2003",
+                        "1978",
+                        "1966",
+                        "1981",
+                        "2003",
+                        "1998",
+                        "1977"
+                    ],
+                    "publish_year": [
+                        1978,
+                        1966,
+                        1981,
+                        2003,
+                        1998,
+                        1977
+                    ],
+                    "first_publish_year": 1966,
+                    "number_of_pages_median": 42,
+                    "lccn": [
+                        "79102020",
+                        "98233613"
+                    ],
+                    "publish_place": [
+                        "Ferrara",
+                        "New York",
+                        "London, Eng",
+                        "London"
+                    ],
+                    "oclc": [
+                        "39809165"
+                    ],
+                    "contributor": [
+                        "Hayes, John T.",
+                        "Lowell Libson Ltd",
+                        "Tate Gallery.",
+                        "Courtauld Institute of Art.",
+                        "Roberts, Keith, 1937-"
+                    ],
+                    "lcc": [
+                        "ND-0497.00000000.G2 A4 1978",
+                        "N--6797.00000000.G34 A4 1998"
+                    ],
+                    "ddc": [
+                        "759.2"
+                    ],
+                    "isbn": [
+                        "0834300060",
+                        "9780834300040",
+                        "0834300044",
+                        "9780834300064",
+                        "9780486428932",
+                        "0486428931"
+                    ],
+                    "last_modified_i": 1606685197,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "readinglog_count": 1,
+                    "want_to_read_count": 1,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
+                    "cover_edition_key": "OL7639015M",
+                    "cover_i": 1256652,
+                    "publisher": [
+                        "Lowell Libson Ltd.",
+                        "Dover Publications",
+                        "Funk & Wagnalls",
+                        "Ferrara arte",
+                        "Lowell Lisbon ltd",
+                        "Knowledge publications",
+                        "Courtauld Institute of Art"
+                    ],
+                    "language": [
+                        "eng",
+                        "ita"
+                    ],
+                    "author_key": [
+                        "OL303393A"
+                    ],
+                    "author_name": [
+                        "Thomas Gainsborough"
+                    ],
+                    "person": [
+                        "Thomas Gainsborough (1727-1788)"
+                    ],
+                    "subject": [
+                        "Art, British",
+                        "British Art",
+                        "Catalogs",
+                        "English Landscape painting",
+                        "English Portrait painting",
+                        "Exhibitions",
+                        "Landscape painting, English",
+                        "Portrait painting, English",
+                        "Gainsborough, thomas, 1727-1788"
+                    ],
+                    "time": [
+                        "18th century"
+                    ],
+                    "id_goodreads": [
+                        "2724601"
+                    ],
+                    "id_librarything": [
+                        "238139",
+                        "5907909",
+                        "281188",
+                        "3711825"
+                    ],
+                    "publisher_facet": [
+                        "Courtauld Institute of Art",
+                        "Dover Publications",
+                        "Ferrara arte",
+                        "Funk & Wagnalls",
+                        "Knowledge publications",
+                        "Lowell Libson Ltd.",
+                        "Lowell Lisbon ltd"
+                    ],
+                    "person_key": [
+                        "thomas_gainsborough_(1727-1788)"
+                    ],
+                    "time_facet": [
+                        "18th century"
+                    ],
+                    "person_facet": [
+                        "Thomas Gainsborough (1727-1788)"
+                    ],
+                    "subject_facet": [
+                        "Art, British",
+                        "British Art",
+                        "Catalogs",
+                        "English Landscape painting",
+                        "English Portrait painting",
+                        "Exhibitions",
+                        "Gainsborough, thomas, 1727-1788",
+                        "Landscape painting, English",
+                        "Portrait painting, English"
+                    ],
+                    "_version_": 1759767367710146560,
+                    "lcc_sort": "N--6797.00000000.G34 A4 1998",
+                    "author_facet": [
+                        "OL303393A Thomas Gainsborough"
+                    ],
+                    "subject_key": [
+                        "art_british",
+                        "british_art",
+                        "catalogs",
+                        "english_landscape_painting",
+                        "english_portrait_painting",
+                        "exhibitions",
+                        "gainsborough_thomas_1727-1788",
+                        "landscape_painting_english",
+                        "portrait_painting_english"
+                    ],
+                    "ddc_sort": "759.2",
+                    "time_key": [
+                        "18th_century"
+                    ]
+                },
+                {
+                    "key": "/works/OL32243784W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL43988916M",
+                        "/works/OL32243784W",
+                        "/subjects/illustrations",
+                        "/subjects/catalogs",
+                        "/subjects/titania_(fictitious_character_:_shakespeare)",
+                        "/subjects/person:george_romney_(1734-1802)",
+                        "/subjects/person:william_shakespeare_(1564-1616)",
+                        "/authors/OL1801204A"
+                    ],
+                    "title": "George Romney's Titania and her attendants",
+                    "title_suggest": "George Romney's Titania and her attendants",
+                    "title_sort": "George Romney's Titania and her attendants",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL43988916M"
+                    ],
+                    "publish_date": [
+                        "2011"
+                    ],
+                    "publish_year": [
+                        2011
+                    ],
+                    "first_publish_year": 2011,
+                    "number_of_pages_median": 24,
+                    "publish_place": [
+                        "London"
+                    ],
+                    "oclc": [
+                        "712783599"
+                    ],
+                    "contributor": [
+                        "Kidson, Alex, writer of added commentary",
+                        "Kidson, Alex",
+                        "Lowell Libson Ltd"
+                    ],
+                    "lcc": [
+                        "ND-0497.00000000.R7 A77 2011"
+                    ],
+                    "isbn": [
+                        "0956393020",
+                        "9780956393029"
+                    ],
+                    "last_modified_i": 1683163064,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "readinglog_count": 0,
+                    "want_to_read_count": 0,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
+                    "publisher": [
+                        "Lowell Libson Ltd",
+                        "Lowell Libson Limited"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL1801204A"
+                    ],
+                    "author_name": [
+                        "George Romney"
+                    ],
+                    "person": [
+                        "George Romney (1734-1802)",
+                        "William Shakespeare (1564-1616)"
+                    ],
+                    "subject": [
+                        "Illustrations",
+                        "Catalogs",
+                        "Titania (Fictitious character : Shakespeare)"
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson Limited",
+                        "Lowell Libson Ltd"
+                    ],
+                    "person_key": [
+                        "george_romney_(1734-1802)",
+                        "william_shakespeare_(1564-1616)"
+                    ],
+                    "person_facet": [
+                        "George Romney (1734-1802)",
+                        "William Shakespeare (1564-1616)"
+                    ],
+                    "subject_facet": [
+                        "Catalogs",
+                        "Illustrations",
+                        "Titania (Fictitious character : Shakespeare)"
+                    ],
+                    "_version_": 1764924396532662273,
+                    "lcc_sort": "ND-0497.00000000.R7 A77 2011",
+                    "author_facet": [
+                        "OL1801204A George Romney"
+                    ],
+                    "subject_key": [
+                        "catalogs",
+                        "illustrations",
+                        "titania_(fictitious_character__shakespeare)"
+                    ]
+                },
+                {
+                    "key": "/works/OL31232493W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL11623246M",
+                        "/works/OL31232493W",
+                        "/subjects/exhibitions",
+                        "/subjects/camera_lucidas",
+                        "/subjects/history",
+                        "/authors/OL1820072A"
+                    ],
+                    "title": "Cornelius Varley",
+                    "title_suggest": "Cornelius Varley",
+                    "title_sort": "Cornelius Varley",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL11623246M"
+                    ],
+                    "publish_date": [
+                        "2005"
+                    ],
+                    "publish_year": [
+                        2005
+                    ],
+                    "first_publish_year": 2005,
+                    "number_of_pages_median": 180,
+                    "oclc": [
+                        "60752468"
+                    ],
+                    "isbn": [
+                        "0955033705",
+                        "9780955033704"
+                    ],
+                    "last_modified_i": 1678251560,
+                    "ebook_count_i": 1,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "corneliusvarleya0000varl"
+                    ],
+                    "ia_collection": [
+                        "inlibrary",
+                        "internetarchivebooks",
+                        "printdisabled"
+                    ],
+                    "ia_collection_s": "inlibrary;internetarchivebooks;printdisabled",
+                    "lending_edition_s": "OL11623246M",
+                    "lending_identifier_s": "corneliusvarleya0000varl",
+                    "printdisabled_s": "OL11623246M",
+                    "readinglog_count": 0,
+                    "want_to_read_count": 0,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
+                    "cover_edition_key": "OL11623246M",
+                    "cover_i": 13434251,
+                    "publisher": [
+                        "Lowell Libson Ltd",
+                        "Lowell Libson Ltd."
+                    ],
+                    "author_key": [
+                        "OL1820072A"
+                    ],
+                    "author_name": [
+                        "Cornelius Varley"
+                    ],
+                    "subject": [
+                        "Exhibitions",
+                        "Camera lucidas",
+                        "History"
+                    ],
+                    "id_librarything": [
+                        "7023699"
+                    ],
+                    "ia_box_id": [
+                        "IA40866724"
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson Ltd",
+                        "Lowell Libson Ltd."
+                    ],
+                    "subject_facet": [
+                        "Camera lucidas",
+                        "Exhibitions",
+                        "History"
+                    ],
+                    "_version_": 1759910852769611778,
+                    "author_facet": [
+                        "OL1820072A Cornelius Varley"
+                    ],
+                    "subject_key": [
+                        "camera_lucidas",
+                        "exhibitions",
+                        "history"
+                    ]
+                },
+                {
+                    "key": "/works/OL19105978M",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL19105978M",
+                        "/works/OL19105978M"
+                    ],
+                    "title": "British master drawings.",
+                    "title_suggest": "British master drawings.",
+                    "title_sort": "British master drawings.",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL19105978M"
+                    ],
+                    "publish_date": [
+                        "2002"
+                    ],
+                    "publish_year": [
+                        2002
+                    ],
+                    "first_publish_year": 2002,
+                    "number_of_pages_median": 31,
+                    "publish_place": [
+                        "London"
+                    ],
+                    "last_modified_i": 1678281654,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "_version_": 1759805864826372096
+                },
+                {
+                    "key": "/works/OL834559W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL106415M",
+                        "/works/OL834559W",
+                        "/subjects/bol\u02b9sho\u012d_teatr_rossii",
+                        "/subjects/buildings_structures",
+                        "/subjects/history",
+                        "/subjects/place:moscow_(russia)",
+                        "/authors/OL71389A"
+                    ],
+                    "title": "Bol\u02b9sho\u012d teatr",
+                    "title_suggest": "Bol\u02b9sho\u012d teatr",
+                    "title_sort": "Bol\u02b9sho\u012d teatr",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL106415M"
+                    ],
+                    "publish_date": [
+                        "1995"
+                    ],
+                    "publish_year": [
+                        1995
+                    ],
+                    "first_publish_year": 1995,
+                    "number_of_pages_median": 215,
+                    "lccn": [
+                        "99224038"
+                    ],
+                    "publish_place": [
+                        "Moskva"
+                    ],
+                    "contributor": [
+                        "Libson, V. I\u0361A."
+                    ],
+                    "lcc": [
+                        "NA-6840.00000000.R82 M6835 1995"
+                    ],
+                    "last_modified_i": 1606899881,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "[Bol\u02b9sho\u012d teatr]"
+                    ],
+                    "language": [
+                        "rus"
+                    ],
+                    "author_key": [
+                        "OL71389A"
+                    ],
+                    "author_name": [
+                        "A. I. Kuznet\u0361sova"
+                    ],
+                    "place": [
+                        "Moscow (Russia)"
+                    ],
+                    "subject": [
+                        "Bol\u02b9sho\u012d teatr Rossii",
+                        "Buildings, structures",
+                        "History"
+                    ],
+                    "publisher_facet": [
+                        "[Bol\u02b9sho\u012d teatr]"
+                    ],
+                    "place_key": [
+                        "moscow_(russia)"
+                    ],
+                    "subject_facet": [
+                        "Bol\u02b9sho\u012d teatr Rossii",
+                        "Buildings, structures",
+                        "History"
+                    ],
+                    "_version_": 1759801137559502850,
+                    "place_facet": [
+                        "Moscow (Russia)"
+                    ],
+                    "lcc_sort": "NA-6840.00000000.R82 M6835 1995",
+                    "author_facet": [
+                        "OL71389A A. I. Kuznet\u0361sova"
+                    ],
+                    "subject_key": [
+                        "bol\u02b9sho\u012d_teatr_rossii",
+                        "buildings_structures",
+                        "history"
+                    ]
+                },
+                {
+                    "key": "/works/OL34555941W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL46870267M",
+                        "/works/OL34555941W",
+                        "/authors/OL12215099A"
+                    ],
+                    "title": "BRITISH ART",
+                    "title_suggest": "BRITISH ART",
+                    "title_sort": "BRITISH ART",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL46870267M"
+                    ],
+                    "publish_date": [
+                        "2017-10-03"
+                    ],
+                    "publish_year": [
+                        2017
+                    ],
+                    "first_publish_year": 2017,
+                    "isbn": [
+                        "0992909643",
+                        "9780992909642"
+                    ],
+                    "last_modified_i": 1677532204,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "author_key": [
+                        "OL12215099A"
+                    ],
+                    "author_name": [
+                        "Jonathan Yarker"
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "_version_": 1759790169749192706,
+                    "author_facet": [
+                        "OL12215099A Jonathan Yarker"
+                    ]
+                },
+                {
+                    "key": "/works/OL15156989W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL24197715M",
+                        "/works/OL15156989W",
+                        "/subjects/yoga",
+                        "/authors/OL244043A"
+                    ],
+                    "title": "Yoga, youth, and reincarnation",
+                    "title_suggest": "Yoga, youth, and reincarnation",
+                    "title_sort": "Yoga, youth, and reincarnation",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL24197715M"
+                    ],
+                    "publish_date": [
+                        "1968"
+                    ],
+                    "publish_year": [
+                        1968
+                    ],
+                    "first_publish_year": 1968,
+                    "number_of_pages_median": 344,
+                    "publish_place": [
+                        "New York"
+                    ],
+                    "oclc": [
+                        "16673588"
+                    ],
+                    "ddc": [
+                        "181.45"
+                    ],
+                    "isbn": [
+                        "0553143190",
+                        "9780553143195"
+                    ],
+                    "last_modified_i": 1667076371,
+                    "ebook_count_i": 1,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "yogayouthreincar1971stea"
+                    ],
+                    "ia_collection": [
+                        "china",
+                        "inlibrary",
+                        "internetarchivebooks",
+                        "printdisabled"
+                    ],
+                    "ia_collection_s": "china;inlibrary;internetarchivebooks;printdisabled",
+                    "lending_edition_s": "OL24197715M",
+                    "lending_identifier_s": "yogayouthreincar1971stea",
+                    "printdisabled_s": "OL24197715M",
+                    "readinglog_count": 9,
+                    "want_to_read_count": 8,
+                    "currently_reading_count": 1,
+                    "already_read_count": 0,
+                    "cover_edition_key": "OL24197715M",
+                    "cover_i": 6577380,
+                    "publisher": [
+                        "Bantam"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL244043A"
+                    ],
+                    "author_name": [
+                        "Jess Stearn"
+                    ],
+                    "author_alternative_name": [
+                        "Jess. Stearn"
+                    ],
+                    "subject": [
+                        "Yoga"
+                    ],
+                    "ia_loaded_id": [
+                        "yogayouthreincar1971stea"
+                    ],
+                    "ia_box_id": [
+                        "IA108116"
+                    ],
+                    "publisher_facet": [
+                        "Bantam"
+                    ],
+                    "subject_facet": [
+                        "Yoga"
+                    ],
+                    "_version_": 1759750639159607297,
+                    "author_facet": [
+                        "OL244043A Jess Stearn"
+                    ],
+                    "subject_key": [
+                        "yoga"
+                    ],
+                    "ddc_sort": "181.45"
+                },
+                {
+                    "key": "/works/OL33746653W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL45715017M",
+                        "/works/OL33746653W",
+                        "/authors/OL12215099A"
+                    ],
+                    "title": "The Spirit & Force of Art",
+                    "title_suggest": "The Spirit & Force of Art",
+                    "title_sort": "The Spirit & Force of Art",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL45715017M"
+                    ],
+                    "publish_date": [
+                        "2018-06-01"
+                    ],
+                    "publish_year": [
+                        2018
+                    ],
+                    "first_publish_year": 2018,
+                    "isbn": [
+                        "9781999978310",
+                        "1999978315"
+                    ],
+                    "last_modified_i": 1673686862,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lowell Libson & Jonny Yarker Ltd"
+                    ],
+                    "author_key": [
+                        "OL12215099A"
+                    ],
+                    "author_name": [
+                        "Jonathan Yarker"
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson & Jonny Yarker Ltd"
+                    ],
+                    "_version_": 1759788558249361408,
+                    "author_facet": [
+                        "OL12215099A Jonathan Yarker"
+                    ]
+                },
+                {
+                    "key": "/works/OL12410866W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL18422657M",
+                        "/works/OL12410866W",
+                        "/authors/OL5469138A"
+                    ],
+                    "title": "Feeling through the eye",
+                    "title_suggest": "Feeling through the eye",
+                    "title_sort": "Feeling through the eye",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL18422657M"
+                    ],
+                    "publish_date": [
+                        "2000"
+                    ],
+                    "publish_year": [
+                        2000
+                    ],
+                    "first_publish_year": 2000,
+                    "publish_place": [
+                        "London"
+                    ],
+                    "oclc": [
+                        "43947083"
+                    ],
+                    "contributor": [
+                        "Hobrough, Sarah.",
+                        "Libson, Lowell."
+                    ],
+                    "isbn": [
+                        "1902040325",
+                        "9781902040325"
+                    ],
+                    "last_modified_i": 1303926818,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Spink-Leger"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL5469138A"
+                    ],
+                    "author_name": [
+                        "Spink-Leger."
+                    ],
+                    "id_goodreads": [
+                        "2405198"
+                    ],
+                    "publisher_facet": [
+                        "Spink-Leger"
+                    ],
+                    "_version_": 1759745920522518528,
+                    "author_facet": [
+                        "OL5469138A Spink-Leger."
+                    ]
+                },
+                {
+                    "key": "/works/OL26397761W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL35638568M",
+                        "/works/OL26397761W",
+                        "/subjects/exhibitions",
+                        "/subjects/person:john_linnell_(1792-1882)",
+                        "/authors/OL2591804A"
+                    ],
+                    "title": "Power & poetry",
+                    "title_sort": "Power & poetry",
+                    "title_suggest": "Power & poetry",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL35638568M"
+                    ],
+                    "publish_date": [
+                        "2008"
+                    ],
+                    "publish_year": [
+                        2008
+                    ],
+                    "first_publish_year": 2008,
+                    "number_of_pages_median": 36,
+                    "publish_place": [
+                        "London"
+                    ],
+                    "oclc": [
+                        "223490879"
+                    ],
+                    "contributor": [
+                        "Lowell Libson Ltd",
+                        "Mallalieu, Huon",
+                        "Fine Art Society"
+                    ],
+                    "lcc": [
+                        "ND-0461.00000000.L56 2008"
+                    ],
+                    "isbn": [
+                        "0955033780",
+                        "9780955033780"
+                    ],
+                    "last_modified_i": 1685288927,
+                    "ebook_count_i": 1,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "powerpoetryartof0000linn"
+                    ],
+                    "ia_collection": [
+                        "dartmouthlibrary-ol",
+                        "inlibrary",
+                        "internetarchivebooks",
+                        "pma-ol",
+                        "printdisabled"
+                    ],
+                    "ia_collection_s": "dartmouthlibrary-ol;inlibrary;internetarchivebooks;pma-ol;printdisabled",
+                    "lending_edition_s": "OL35638568M",
+                    "lending_identifier_s": "powerpoetryartof0000linn",
+                    "printdisabled_s": "OL35638568M",
+                    "readinglog_count": 0,
+                    "want_to_read_count": 0,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
+                    "cover_edition_key": "OL35638568M",
+                    "cover_i": 12345505,
+                    "publisher": [
+                        "Fine Art Society"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2591804A"
+                    ],
+                    "author_name": [
+                        "John Linnell"
+                    ],
+                    "person": [
+                        "John Linnell (1792-1882)"
+                    ],
+                    "subject": [
+                        "Exhibitions"
+                    ],
+                    "ia_box_id": [
+                        "IA40278221"
+                    ],
+                    "publisher_facet": [
+                        "Fine Art Society"
+                    ],
+                    "person_key": [
+                        "john_linnell_(1792-1882)"
+                    ],
+                    "person_facet": [
+                        "John Linnell (1792-1882)"
+                    ],
+                    "subject_facet": [
+                        "Exhibitions"
+                    ],
+                    "_version_": 1767153523906052107,
+                    "lcc_sort": "ND-0461.00000000.L56 2008",
+                    "author_facet": [
+                        "OL2591804A John Linnell"
+                    ],
+                    "subject_key": [
+                        "exhibitions"
+                    ]
+                },
+                {
+                    "key": "/works/OL18660464W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL16400416M",
+                        "/works/OL18660464W",
+                        "/subjects/violence_against",
+                        "/subjects/gay_pride_parades",
+                        "/subjects/civil_rights",
+                        "/subjects/health_and_hygiene",
+                        "/subjects/gay_adoption",
+                        "/subjects/religion",
+                        "/subjects/sexual_minorities",
+                        "/subjects/marcha_del_orgullo_glttbi_(2005_:_buenos_aires_argentina)",
+                        "/subjects/political_activity",
+                        "/subjects/homophobia",
+                        "/subjects/same-sex_marriage",
+                        "/subjects/place:argentina",
+                        "/subjects/place:buenos_aires",
+                        "/authors/OL6646814A"
+                    ],
+                    "title": "Sexualidades, pol\u00edtica y violencia",
+                    "title_sort": "Sexualidades, pol\u00edtica y violencia",
+                    "title_suggest": "Sexualidades, pol\u00edtica y violencia",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL16400416M"
+                    ],
+                    "publish_date": [
+                        "2006"
+                    ],
+                    "publish_year": [
+                        2006
+                    ],
+                    "first_publish_year": 2006,
+                    "number_of_pages_median": 123,
+                    "lccn": [
+                        "2007471260"
+                    ],
+                    "publish_place": [
+                        "[Buenos Aires]"
+                    ],
+                    "oclc": [
+                        "173662161"
+                    ],
+                    "contributor": [
+                        "Libson, Micaela.",
+                        "Jones, Daniel.",
+                        "Hiller, Renata.",
+                        "Ariza, Luci\u0301a."
+                    ],
+                    "lcc": [
+                        "HQ-0073.30000000.A7 S49 2006"
+                    ],
+                    "isbn": [
+                        "9789871238170",
+                        "9871238177"
+                    ],
+                    "last_modified_i": 1685249330,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "readinglog_count": 0,
+                    "want_to_read_count": 0,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
+                    "cover_edition_key": "OL16400416M",
+                    "cover_i": 5338875,
+                    "publisher": [
+                        "Instituto de Investigaciones Gino Germani, Facultad de Ciencias Sociales, Universidad de Buenos Aires",
+                        "Antropofagia",
+                        "Centro Latinoamericano de Sexualidad y Derechos Humanos (CLAM)",
+                        "Grupo de Estudios sobre Sexualidades (GES)"
+                    ],
+                    "language": [
+                        "spa"
+                    ],
+                    "author_key": [
+                        "OL6646814A"
+                    ],
+                    "author_name": [
+                        "Daniel Jones"
+                    ],
+                    "place": [
+                        "Argentina",
+                        "Buenos Aires"
+                    ],
+                    "subject": [
+                        "Violence against",
+                        "Gay pride parades",
+                        "Civil rights",
+                        "Health and hygiene",
+                        "Gay adoption",
+                        "Religion",
+                        "Sexual minorities",
+                        "Marcha del Orgullo GLTTBI (2005 : Buenos Aires, Argentina)",
+                        "Political activity",
+                        "Homophobia",
+                        "Same-sex marriage"
+                    ],
+                    "publisher_facet": [
+                        "Antropofagia",
+                        "Centro Latinoamericano de Sexualidad y Derechos Humanos (CLAM)",
+                        "Grupo de Estudios sobre Sexualidades (GES)",
+                        "Instituto de Investigaciones Gino Germani, Facultad de Ciencias Sociales, Universidad de Buenos Aires"
+                    ],
+                    "place_key": [
+                        "argentina",
+                        "buenos_aires"
+                    ],
+                    "subject_facet": [
+                        "Civil rights",
+                        "Gay adoption",
+                        "Gay pride parades",
+                        "Health and hygiene",
+                        "Homophobia",
+                        "Marcha del Orgullo GLTTBI (2005 : Buenos Aires, Argentina)",
+                        "Political activity",
+                        "Religion",
+                        "Same-sex marriage",
+                        "Sexual minorities",
+                        "Violence against"
+                    ],
+                    "_version_": 1767112002137751552,
+                    "place_facet": [
+                        "Argentina",
+                        "Buenos Aires"
+                    ],
+                    "lcc_sort": "HQ-0073.30000000.A7 S49 2006",
+                    "author_facet": [
+                        "OL6646814A Daniel Jones"
+                    ],
+                    "subject_key": [
+                        "civil_rights",
+                        "gay_adoption",
+                        "gay_pride_parades",
+                        "health_and_hygiene",
+                        "homophobia",
+                        "marcha_del_orgullo_glttbi_(2005__buenos_aires_argentina)",
+                        "political_activity",
+                        "religion",
+                        "same-sex_marriage",
+                        "sexual_minorities",
+                        "violence_against"
+                    ]
+                },
+                {
+                    "key": "/works/OL14712003M",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL14712003M",
+                        "/works/OL14712003M",
+                        "/subjects/israel._--_bet_ha-mishpa\u1e6d_ha-\u02bbelyon",
+                        "/subjects/conflict_of_laws_--_israel_--_cases.",
+                        "/subjects/law_--_israel_--_religious_aspects_--_cases.",
+                        "/subjects/judaism_and_state.",
+                        "/subjects/israel_--_religion."
+                    ],
+                    "title": "Mishpa\u1e6d \u02bbIvri bi-fesi\u1e33at Bet ha-mishpa\u1e6d ha-\u02bbelyon",
+                    "title_suggest": "Mishpa\u1e6d \u02bbIvri bi-fesi\u1e33at Bet ha-mishpa\u1e6d ha-\u02bbelyon",
+                    "title_sort": "Mishpa\u1e6d \u02bbIvri bi-fesi\u1e33at Bet ha-mishpa\u1e6d ha-\u02bbelyon",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL14712003M"
+                    ],
+                    "publish_date": [
+                        "1984"
+                    ],
+                    "publish_year": [
+                        1984
+                    ],
+                    "first_publish_year": 1984,
+                    "number_of_pages_median": 1018,
+                    "publish_place": [
+                        "Yerushalayim"
+                    ],
+                    "contributor": [
+                        "Libson, Gideon.",
+                        "Segal, Perets.",
+                        "Universi\u1e6dah ha-\u02bbIvrit bi-Yerushalayim. Fa\u1e33ul\u1e6dah le-mishpa\u1e6dim."
+                    ],
+                    "lcc": [
+                        "K--7045.00000000.M57 1984"
+                    ],
+                    "last_modified_i": 1678281198,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "A\u1e33ademon"
+                    ],
+                    "language": [
+                        "heb"
+                    ],
+                    "subject": [
+                        "Israel. -- Bet ha-mishpa\u1e6d ha-\u02bbelyon",
+                        "Conflict of laws -- Israel -- Cases.",
+                        "Law -- Israel -- Religious aspects -- Cases.",
+                        "Judaism and state.",
+                        "Israel -- Religion."
+                    ],
+                    "publisher_facet": [
+                        "A\u1e33ademon"
+                    ],
+                    "subject_facet": [
+                        "Conflict of laws -- Israel -- Cases.",
+                        "Israel -- Religion.",
+                        "Israel. -- Bet ha-mishpa\u1e6d ha-\u02bbelyon",
+                        "Judaism and state.",
+                        "Law -- Israel -- Religious aspects -- Cases."
+                    ],
+                    "_version_": 1759805387183226882,
+                    "lcc_sort": "K--7045.00000000.M57 1984",
+                    "subject_key": [
+                        "conflict_of_laws_--_israel_--_cases.",
+                        "israel._--_bet_ha-mishpa\u1e6d_ha-\u02bbelyon",
+                        "israel_--_religion.",
+                        "judaism_and_state.",
+                        "law_--_israel_--_religious_aspects_--_cases."
+                    ]
+                },
+                {
+                    "key": "/works/OL9692600W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL11623247M",
+                        "/works/OL9692600W",
+                        "/authors/OL3685527A"
+                    ],
+                    "title": "Drawn to the Sea",
+                    "title_suggest": "Drawn to the Sea",
+                    "title_sort": "Drawn to the Sea",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL11623247M"
+                    ],
+                    "publish_date": [
+                        "2006"
+                    ],
+                    "publish_year": [
+                        2006
+                    ],
+                    "first_publish_year": 2006,
+                    "oclc": [
+                        "70250011"
+                    ],
+                    "isbn": [
+                        "9780955033728",
+                        "0955033721"
+                    ],
+                    "last_modified_i": 1303980394,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "author_key": [
+                        "OL3685527A"
+                    ],
+                    "author_name": [
+                        "Charles Gore"
+                    ],
+                    "id_goodreads": [
+                        "711945"
+                    ],
+                    "publisher_facet": [
+                        "Lowell Libson Ltd"
+                    ],
+                    "_version_": 1759804093227859968,
+                    "author_facet": [
+                        "OL3685527A Charles Gore"
+                    ]
+                },
+                {
+                    "key": "/works/OL18387808W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL17593163M",
+                        "/works/OL18387808W",
+                        "/authors/OL4290340A"
+                    ],
+                    "title": "A Portuguese version of the life of Barlaam and Josaphat",
+                    "title_suggest": "A Portuguese version of the life of Barlaam and Josaphat",
+                    "title_sort": "A Portuguese version of the life of Barlaam and Josaphat",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL17593163M"
+                    ],
+                    "publish_date": [
+                        "1938"
+                    ],
+                    "publish_year": [
+                        1938
+                    ],
+                    "first_publish_year": 1938,
+                    "number_of_pages_median": 144,
+                    "lccn": [
+                        "39007230"
+                    ],
+                    "publish_place": [
+                        "Philadelphia"
+                    ],
+                    "oclc": [
+                        "3993057"
+                    ],
+                    "contributor": [
+                        "Abraham, Richard David.",
+                        "Libson. Biblioteca nacional. Mss. Alcobacensis 266."
+                    ],
+                    "lcc": [
+                        "PQ-9191.00000000.B27 1938"
+                    ],
+                    "ddc": [
+                        "869.1"
+                    ],
+                    "last_modified_i": 1672202049,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL4290340A"
+                    ],
+                    "author_name": [
+                        "Richard David Abraham"
+                    ],
+                    "_version_": 1759757494327967744,
+                    "lcc_sort": "PQ-9191.00000000.B27 1938",
+                    "author_facet": [
+                        "OL4290340A Richard David Abraham"
+                    ],
+                    "ddc_sort": "869.1"
+                },
+                {
+                    "key": "/works/OL21548614M",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL21548614M",
+                        "/works/OL21548614M",
+                        "/subjects/jewish_ethics_--_history.",
+                        "/subjects/jewish_law_--_history.",
+                        "/subjects/jewish_law_--_philosophy.",
+                        "/subjects/philosophy_jewish."
+                    ],
+                    "title": "Din musar \u1e7fe-yosher ba-mishpa\u1e6d ha-\u02bbIvri",
+                    "title_suggest": "Din musar \u1e7fe-yosher ba-mishpa\u1e6d ha-\u02bbIvri",
+                    "title_sort": "Din musar \u1e7fe-yosher ba-mishpa\u1e6d ha-\u02bbIvri",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL21548614M"
+                    ],
+                    "publish_date": [
+                        "2006"
+                    ],
+                    "publish_year": [
+                        2006
+                    ],
+                    "first_publish_year": 2006,
+                    "number_of_pages_median": 414,
+                    "publish_place": [
+                        "Yerushalayim"
+                    ],
+                    "contributor": [
+                        "Universi\u1e6dah ha-\u02bbIvrit bi-Yerushalayim. Makhon le-\u1e25e\u1e33er ha-mishpa\u1e6d ha-\u02bbIvri.",
+                        "Lifshitz, Berachyahu.",
+                        "Shilo, Margalit.",
+                        "Libson, Gideon."
+                    ],
+                    "lcc": [
+                        "KBM0524.14000000.D55 2006"
+                    ],
+                    "last_modified_i": 1678281913,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "ha-Makhon le-\u1e25e\u1e33er ha-mishpa\u1e6d ha-\u02bbIvri ha-fa\u1e33ul\u1e6dah le-mishpahtim, ha-Universi\u1e6dah ha-\u02bbIvrit bi-Yerushalayim"
+                    ],
+                    "language": [
+                        "heb"
+                    ],
+                    "subject": [
+                        "Jewish ethics -- History.",
+                        "Jewish law -- History.",
+                        "Jewish law -- Philosophy.",
+                        "Philosophy, Jewish."
+                    ],
+                    "publisher_facet": [
+                        "ha-Makhon le-\u1e25e\u1e33er ha-mishpa\u1e6d ha-\u02bbIvri ha-fa\u1e33ul\u1e6dah le-mishpahtim, ha-Universi\u1e6dah ha-\u02bbIvrit bi-Yerushalayim"
+                    ],
+                    "subject_facet": [
+                        "Jewish ethics -- History.",
+                        "Jewish law -- History.",
+                        "Jewish law -- Philosophy.",
+                        "Philosophy, Jewish."
+                    ],
+                    "_version_": 1759806136912969728,
+                    "lcc_sort": "KBM0524.14000000.D55 2006",
+                    "subject_key": [
+                        "jewish_ethics_--_history.",
+                        "jewish_law_--_history.",
+                        "jewish_law_--_philosophy.",
+                        "philosophy_jewish."
+                    ]
+                }
+            ],
+            "num_found": 36,
+            "q": "libson",
+            "offset": null
+        }
+  recorded_at: Tue, 08 Aug 2023 18:00:38 GMT
+recorded_with: VCR 6.2.0

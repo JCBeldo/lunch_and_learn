@@ -6,7 +6,7 @@ class BookSerializer
   attributes  :title,
               :publisher,
               :city,
-              :books,
+              # :books,
               :total_books_found,
               :isbn
 end
