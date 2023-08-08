@@ -4,15 +4,18 @@ class CapitalBook
               :city,
               :title,
               :isbn,
-              :publisher
+              :publisher,
+              :total_books_found,
+              :books
               
   def initialize(data, capital)
-    # require 'pry'; binding.pry
     @id = data[:id]
     @type = data[:type]
+    @total_books_found = data[:attributes][:numFound]
     @city = capital
-    @title = data[:attributes][:docs][0][:title]
-    @isbn = data[:attributes][:docs][0][:isbn]
-    @publisher = data[:attributes][:docs][0][:publisher]
+    @books = data[:attributes][:docs]
+    @title = @books[0][:title]
+    @isbn = @books[0][:isbn]
+    @publisher = @books[0][:publisher]
   end
 end
