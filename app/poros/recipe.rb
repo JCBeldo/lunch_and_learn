@@ -6,13 +6,12 @@ class Recipe
               :type,
               :country
   
-  def initialize(data)
+  def initialize(data, country)
+    @country = country
     @id = data[:id]
     @type = data[:type]
     @title = data[:attributes][:recipe][:label]
     @image = data[:attributes][:recipe][:image]
     @url = data[:attributes][:recipe][:url]
-    # @country = params[:q]
-    @country = data[:attributes][:recipe][:shareAs].last(8)
   end
 end

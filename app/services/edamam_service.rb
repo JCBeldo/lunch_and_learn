@@ -1,6 +1,6 @@
 class EdamamService
   def initialize(params)
-    @country = params[:q]
+    @country = params
   end
 
   def recipes_by_keyword
@@ -18,9 +18,6 @@ class EdamamService
   
   def conn
     Faraday.new("https://api.edamam.com/api/recipes/v2") do |f|
-      # f.params['app_id'] = ENV['app_id']
-      # f.params['app_key'] = ENV['app_key']
-      # f.params['type'] = "any"
     end
   end 
 end
