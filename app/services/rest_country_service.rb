@@ -4,6 +4,12 @@ class RestCountryService
     json = JSON.parse(response.body, symbolize_names: true)
   end
 
+  def get_random_country
+    response = conn.get("/v3.1/all")
+    json = JSON.parse(response.body, symbolize_names: true)
+    random_country = json.sample[:name][:common]
+  end
+
   private
 
   def conn
