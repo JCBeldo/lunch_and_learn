@@ -14,7 +14,7 @@ RSpec.describe UnsplashFacade do
       photos = UnsplashFacade.new.country_photos(country)
 
       expect(photos.first).to be_an(Photo)
-      expect(photos.first.id).to eq(NilClass)
+      expect(photos.first.id).to be_a(NilClass)
       expect(photos.first.url).to be_a(String)
       expect(photos.first.alt_tag).to be_a(String)
     end

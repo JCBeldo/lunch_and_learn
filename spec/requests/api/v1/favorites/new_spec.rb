@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe "Favorites", type: :request do
-  describe "POST /api/v1/favorites", :vcr do
-    it "creates a favorite" do
+RSpec.describe "Favorites create page", type: :request do
+  describe "POST /api/v1/favorites" do
+    it "creates a favorite", :vcr do
       user = User.create!(name: "Odell", email: "goodboy@ruff.com", password: 'treats4lyf', password_confirmation: 'treats4lyf') 
 
       user_params = {
@@ -19,7 +19,7 @@ RSpec.describe "Favorites", type: :request do
       expect(response.status).to eq(201)
 
       favorite = JSON.parse(response.body, symbolize_names: true)
-
+      
       expect(favorite).to be_a(Hash)
       expect(favorite).to have_key(:success)
       expect(favorite[:success]).to eq("Favorite successfully created")
